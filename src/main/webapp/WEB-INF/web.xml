@@ -5,11 +5,11 @@
          version="6.0">
     <servlet>
         <servlet-name>ControllerServlet</servlet-name>
-        <servlet-class>lab3.ControllerServlet</servlet-class>
+        <servlet-class>ControllerServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>AreaCheckServlet</servlet-name>
-        <servlet-class>lab3.AreaCheckServlet</servlet-class>
+        <servlet-class>AreaCheckServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>ControllerServlet</servlet-name>

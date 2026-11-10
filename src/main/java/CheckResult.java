@@ -1,5 +1,3 @@
-package lab3;
-
 import java.io.Serializable;
 import java.math.BigDecimal;
 

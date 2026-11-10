@@ -1,5 +1,3 @@
-package lab3;
-
 import java.math.BigDecimal;
 
 public class AreaChecker {
