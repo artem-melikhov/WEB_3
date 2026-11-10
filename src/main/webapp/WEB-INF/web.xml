@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
+         version="6.0">
+    <servlet>
+        <servlet-name>ControllerServlet</servlet-name>
+        <servlet-class>lab3.ControllerServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AreaCheckServlet</servlet-name>
+        <servlet-class>lab3.AreaCheckServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ControllerServlet</servlet-name>
+        <url-pattern>/check</url-pattern>
+    </servlet-mapping>
+    <welcome-file-list>
+        <welcome-file>check</welcome-file>
+    </welcome-file-list>
+</web-app>
